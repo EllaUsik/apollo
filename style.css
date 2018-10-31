@@ -1,0 +1,148 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.wrapper {
+  width: 1600px;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.block {
+  width: 1500px;
+  vertical-align: middle;
+  background-color: #efefef;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header {
+  position: relative;
+  background-color: #efefef;
+  margin-top: 50px;
+  height: 749px;
+}
+
+.navigation {
+  display: inline-block;
+  float: right;
+  margin-right: 55px;
+  margin-top: 35px;
+  padding-right: 40px;
+  font-size: 18px;
+  line-height: 15px;
+  vertical-align: middle;
+  background-image: url(image/menulink.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  text-decoration: none;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+  float: right;
+  width: 200px;
+  height: 55px;
+}
+
+.navigation:hover {
+  opacity: .6;
+}
+
+.letter-A {
+  float: left;
+  background-image: url(image/A.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 749px;
+  width: 459px;
+  margin-left: 15px;
+}
+.photographer {
+  float: right;
+  background-image: url(image/Abackground.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 802px;
+  height: 664px;
+  margin-top: 30px;
+  margin-right: 85px;
+}
+
+.header-text-block {
+  position: absolute;
+  height: 180px;
+  width: 490px;
+  margin-top: 290px;
+  margin-left: 180px;
+}
+
+.title-part1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.title-part2 {
+  font-size: 50px;
+}
+
+.header-text {
+  font-size: 18px;
+  margin-top: 30px;
+  font-style: italic;
+}
+.about {
+  height: 749px;
+}
+
+.letter-P {
+  float: left;
+  height: 749px;
+  width: 369px;
+  background-image: url(image/P.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 95px;
+}
+
+.about-Apollo {
+  float: right;
+  margin-top: 180px;
+  margin-right: 180px;
+  width: 630px;
+  height: 500px;
+}
+
+.about-text-block {
+  height: 370px;
+}
+
+.about-title-block {
+  background-image: url(image/blackline.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 115px;
+}
+
+.about-title-part1 {
+  font-size: 50px;
+}
+
+.about-title-part2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.about-text {
+  font-size: 18px;
+  margin-top: 40px;
+  font-style: italic;
+}
