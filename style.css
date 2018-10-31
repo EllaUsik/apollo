@@ -101,6 +101,7 @@ header {
 }
 .about {
   height: 749px;
+  position: relative;
 }
 
 .letter-P {
@@ -192,4 +193,15 @@ header {
 
 .pinterest {
   background-image: url(images/pinterest.png);
+}
+
+.camera {
+  width: 516px;
+  height: 519px;
+  background-image: url(images/camera.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 90px;
+  top:120px;
+  position: absolute;
 }
