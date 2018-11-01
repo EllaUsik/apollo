@@ -9,6 +9,7 @@
 }
 
 .wrapper {
+  margin: 0 auto;
   width: 1600px;
   background-color: white;
   font-family: sans-serif;
