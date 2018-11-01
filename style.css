@@ -171,11 +171,7 @@ header {
 }
 
 .social-network-link:hover {
-  opacity: .6;
-}
-
-.instagram:hover {
-  opacity: .3;
+  background-color: black;
 }
 
 .fb {
@@ -191,6 +187,11 @@ header {
   opacity: .45;
 }
 
+.instagram:hover {
+  background-color: black;
+  opacity: 1;
+}
+
 .pinterest {
   background-image: url(images/pinterest.png);
 }
@@ -204,4 +205,67 @@ header {
   left: 90px;
   top:120px;
   position: absolute;
+}
+
+.photos {
+  position: relative;
+  background: none;
+  margin: 0 auto;
+  height: 750px;
+  background-image: url(images/womanphoto.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.letter-O {
+  position: absolute;
+  background-image: url(images/O1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 440px;
+  height: 750px;
+}
+
+.button-previous {
+  float: left;
+  width: 125px;
+  margin-top: 335px;
+  position: absolute;
+}
+
+.button-next {
+  float: right;
+  width: 125px;
+  margin-top: 335px;
+}
+
+.previous, .next {
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.previous {
+  float: right;
+  background-image: url(images/previous.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+
+.next {
+  float: left;
+  background-image: url(images/next.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+
+.previous:hover {
+  opacity: .6;
+}
+
+.next:hover {
+  opacity: .6;
 }
