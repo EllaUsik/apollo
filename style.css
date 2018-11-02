@@ -211,7 +211,8 @@ header {
 .photos {
   position: relative;
   background: none;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   height: 750px;
   background-image: url(images/womanphoto.png);
   background-repeat: no-repeat;
@@ -269,4 +270,78 @@ header {
 
 .next:hover {
   opacity: .6;
+}
+
+.discription {
+  height: 749px;
+}
+
+.letter-l {
+  float: left;
+  background-image: url(images/L.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 302px;
+  height: 749px;
+  margin-left: 100px;
+}
+
+.discription-picture {
+  float: right;
+  height: auto;
+  margin-right: 85px;
+  margin-top: 150px;
+}
+
+.description-text-block {
+  position: absolute;
+  width: 450px;
+  text-align: left;
+  margin-left: 180px;
+  margin-top: 210px;
+}
+
+.description-title1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.description-title2 {
+  font-size: 50px;
+}
+
+.description-text {
+  margin-top: 40px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.gallery {
+  height: 749px;
+}
+
+.photo-left {
+  float: left;
+  height: 360px;
+  width: 750px;
+  margin-top: 195px;
+  position: absolute;
+}
+
+.photo-right {
+  float: right;
+  height: 360px;
+  width: 750px;
+  margin-top: 195px;
+}
+
+.photo-center {
+  position: absolute;
+  height: 449px;
+  width: 1500px;
+  margin-top: 150px;
+}
+
+.photo {
+  text-align: center;
 }
