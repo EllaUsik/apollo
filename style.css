@@ -345,3 +345,41 @@ header {
 .photo {
   text-align: center;
 }
+
+.gallery-previous {
+  position: absolute;
+  float: left;
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border: none;
+  background-image: url(images/previous.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  margin-top: 300px;
+  left: 100px;
+}
+
+.gallery-previous:hover {
+  opacity: .6;
+}
+
+.gallery-next {
+  position: absolute;
+  float: right;
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border: none;
+  background-image: url(images/next.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  margin-top: 300px;
+  right: -575px;
+}
+
+.gallery-next:hover {
+  opacity: .6;
+}
