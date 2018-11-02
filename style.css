@@ -377,9 +377,96 @@ header {
   background-position: center;
   outline: none;
   margin-top: 300px;
-  right: -575px;
+  right: -225px;
 }
 
 .gallery-next:hover {
   opacity: .6;
+}
+
+.contact {
+  height: 750px;
+}
+
+.letter-O2 {
+  background-image: url(images/O2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 440px;
+  height: 750px;
+  float: left;
+}
+
+.say-hallo {
+  position: absolute;
+  width: 995px;
+  text-align: center;
+  margin-top: 95px;
+  margin-left: 260px;
+}
+
+.say-hallo-title1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.say-hallo-title2 {
+  font-size: 50px;
+}
+
+.say-hallo-text {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 35px;
+}
+
+.message-form {
+  width: 585px;
+  margin-top: 90px;
+  margin-left: 200px;
+}
+
+.your-email {
+  float: left;
+  height: 45px;
+  width: 255px;
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 20px;
+  background-color: #efefef;
+  border: solid black 1px;
+}
+
+.subcject {
+  float: right;
+  height: 45px;
+  width: 255px;
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 20px;
+  background-color: #efefef;
+  border: solid black 1px;
+}
+
+.message {
+  margin: 30px auto;
+  width: 565px;
+  height: 110px;
+  background-color: #efefef;
+  border: solid black 1px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.send {
+  height: 45px;
+  width: 585px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+
+.send:hover {
+  opacity: .7;
 }
