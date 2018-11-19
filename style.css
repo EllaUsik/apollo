@@ -86,13 +86,12 @@ header {
   margin-left: 180px;
 }
 
-.title-part1 {
-  font-weight: bold;
+.title-style {
   font-size: 50px;
 }
 
-.title-part2 {
-  font-size: 50px;
+.title-bold {
+  font-weight: bold;
 }
 
 .header-text {
@@ -134,12 +133,11 @@ header {
   padding-left: 115px;
 }
 
-.about-title-part1 {
+.about-title-style {
   font-size: 50px;
 }
 
-.about-title-part2 {
-  font-size: 50px;
+.about-title-bold {
   font-weight: bold;
 }
 
@@ -301,13 +299,12 @@ header {
   margin-top: 210px;
 }
 
-.description-title1 {
-  font-weight: bold;
+.description-title-style {
   font-size: 50px;
 }
 
-.description-title2 {
-  font-size: 50px;
+.description-title-bold {
+  font-weight: bold;
 }
 
 .description-text {
@@ -405,13 +402,12 @@ header {
   margin-left: 260px;
 }
 
-.say-hallo-title1 {
+.say-hallo-title-style {
   font-size: 50px;
-  font-weight: bold;
 }
 
-.say-hallo-title2 {
-  font-size: 50px;
+.say-hallo-title-bold {
+  font-weight: bold;
 }
 
 .say-hallo-text {
@@ -424,6 +420,10 @@ header {
   width: 585px;
   margin-top: 90px;
   margin-left: 200px;
+}
+
+::placeholder {
+  color: black;
 }
 
 .your-email {
