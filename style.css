@@ -1,0 +1,472 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1600px;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.block {
+  width: 1500px;
+  vertical-align: middle;
+  background-color: #efefef;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header {
+  position: relative;
+  background-color: #efefef;
+  margin-top: 50px;
+  height: 749px;
+}
+
+.navigation {
+  display: inline-block;
+  float: right;
+  margin-right: 55px;
+  margin-top: 35px;
+  padding-right: 40px;
+  font-size: 18px;
+  line-height: 15px;
+  vertical-align: middle;
+  background-image: url(images/menulink.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  text-decoration: none;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+  float: right;
+  width: 200px;
+  height: 55px;
+}
+
+.navigation:hover {
+  opacity: .6;
+}
+
+.letter-A {
+  float: left;
+  background-image: url(images/A.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 749px;
+  width: 459px;
+  margin-left: 15px;
+}
+.photographer {
+  float: right;
+  background-image: url(images/Abackground.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 802px;
+  height: 664px;
+  margin-top: 30px;
+  margin-right: 85px;
+}
+
+.header-text-block {
+  position: absolute;
+  height: 180px;
+  width: 490px;
+  margin-top: 290px;
+  margin-left: 180px;
+}
+
+.title-style {
+  font-size: 50px;
+}
+
+.title-bold {
+  font-weight: bold;
+}
+
+.header-text {
+  font-size: 18px;
+  margin-top: 30px;
+  font-style: italic;
+}
+.about {
+  height: 749px;
+  position: relative;
+}
+
+.letter-P {
+  float: left;
+  height: 749px;
+  width: 369px;
+  background-image: url(images/P.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 95px;
+}
+
+.about-Apollo {
+  float: right;
+  margin-top: 180px;
+  margin-right: 180px;
+  width: 630px;
+  height: 500px;
+}
+
+.about-text-block {
+  height: 370px;
+}
+
+.about-title-block {
+  background-image: url(images/blackline.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 115px;
+}
+
+.about-title-style {
+  font-size: 50px;
+}
+
+.about-title-bold {
+  font-weight: bold;
+}
+
+.about-text {
+  font-size: 18px;
+  margin-top: 40px;
+  font-style: italic;
+}
+
+.social-networks {
+  display: inline-block;
+  float: left;
+  height: 33px;
+  margin-top: 65px;
+}
+
+.social-network {
+  display: inline-block;
+  height: 33px;
+  width: 33px;
+  margin-right: 20px;
+}
+
+.social-network-link {
+  height: 33px;
+  width: 33px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-network-link:hover {
+  background-color: black;
+}
+
+.fb {
+  background-image: url(images/fb.png);
+}
+
+.twitter {
+  background-image: url(images/twitter.png);
+}
+
+.instagram {
+  background-image: url(images/instagram.png);
+  opacity: .45;
+}
+
+.instagram:hover {
+  background-color: black;
+  opacity: 1;
+}
+
+.pinterest {
+  background-image: url(images/pinterest.png);
+}
+
+.camera {
+  width: 516px;
+  height: 519px;
+  background-image: url(images/camera.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 90px;
+  top:120px;
+  position: absolute;
+}
+
+.photos {
+  position: relative;
+  background: none;
+  margin-left: auto;
+  margin-right: auto;
+  height: 750px;
+  background-image: url(images/womanphoto.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.letter-O {
+  position: absolute;
+  background-image: url(images/O1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 440px;
+  height: 750px;
+}
+
+.button-previous {
+  float: left;
+  width: 125px;
+  margin-top: 335px;
+  position: absolute;
+}
+
+.button-next {
+  float: right;
+  width: 125px;
+  margin-top: 335px;
+}
+
+.previous, .next {
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.previous {
+  float: right;
+  background-image: url(images/previous.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+
+.next {
+  float: left;
+  background-image: url(images/next.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+
+.previous:hover {
+  opacity: .6;
+}
+
+.next:hover {
+  opacity: .6;
+}
+
+.discription {
+  height: 749px;
+}
+
+.letter-l {
+  float: left;
+  background-image: url(images/L.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 302px;
+  height: 749px;
+  margin-left: 100px;
+}
+
+.discription-picture {
+  float: right;
+  height: auto;
+  margin-right: 85px;
+  margin-top: 150px;
+}
+
+.description-text-block {
+  position: absolute;
+  width: 450px;
+  text-align: left;
+  margin-left: 180px;
+  margin-top: 210px;
+}
+
+.description-title-style {
+  font-size: 50px;
+}
+
+.description-title-bold {
+  font-weight: bold;
+}
+
+.description-text {
+  margin-top: 40px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.gallery {
+  height: 749px;
+}
+
+.photo-left {
+  float: left;
+  height: 360px;
+  width: 750px;
+  margin-top: 195px;
+  position: absolute;
+}
+
+.photo-right {
+  float: right;
+  height: 360px;
+  width: 750px;
+  margin-top: 195px;
+}
+
+.photo-center {
+  position: absolute;
+  height: 449px;
+  width: 1500px;
+  margin-top: 150px;
+}
+
+.photo {
+  text-align: center;
+}
+
+.gallery-previous {
+  position: absolute;
+  float: left;
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border: none;
+  background-image: url(images/previous.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  margin-top: 300px;
+  left: 100px;
+}
+
+.gallery-previous:hover {
+  opacity: .6;
+}
+
+.gallery-next {
+  position: absolute;
+  float: right;
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border: none;
+  background-image: url(images/next.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  margin-top: 300px;
+  right: -225px;
+}
+
+.gallery-next:hover {
+  opacity: .6;
+}
+
+.contact {
+  height: 750px;
+}
+
+.letter-O2 {
+  background-image: url(images/O2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 440px;
+  height: 750px;
+  float: left;
+}
+
+.say-hallo {
+  position: absolute;
+  width: 995px;
+  text-align: center;
+  margin-top: 95px;
+  margin-left: 260px;
+}
+
+.say-hallo-title-style {
+  font-size: 50px;
+}
+
+.say-hallo-title-bold {
+  font-weight: bold;
+}
+
+.say-hallo-text {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 35px;
+}
+
+.message-form {
+  width: 585px;
+  margin-top: 90px;
+  margin-left: 200px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.your-email {
+  float: left;
+  height: 45px;
+  width: 255px;
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 20px;
+  background-color: #efefef;
+  border: solid black 1px;
+}
+
+.subcject {
+  float: right;
+  height: 45px;
+  width: 255px;
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 20px;
+  background-color: #efefef;
+  border: solid black 1px;
+}
+
+.message {
+  margin: 30px auto;
+  width: 565px;
+  height: 110px;
+  background-color: #efefef;
+  border: solid black 1px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.send {
+  height: 45px;
+  width: 585px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+
+.send:hover {
+  opacity: .7;
+}
